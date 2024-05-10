@@ -11,7 +11,7 @@ def setup_routes(app):
                 {
                     "parts": [
                         {
-                            "text": "Extrair compoenentes deste veículo"
+                            "text": "Avalie as condições deste veículo"
                         },
                         {"text": "Imagem: "},
                         {
@@ -20,7 +20,7 @@ def setup_routes(app):
                             }
                         },
                         {
-                            "text": "Lista de componentes: - voltante\n- câmbio\n- pedais\n"
+                            "text": "Lista de componentes: Painel - Muito danificado; Volante - Riscado, desgastado e descosturando; Forro de porta - Sujo, começando a soltar; Bancos - Sujos, rasgados; Tapetes e carpetes - Muito danificados; Maçanetas e travas - Quebradas; Cintos de segurança - Desfiando e descosturando; Pedais - Sujos, desalinhados;"
                         },
                         {"text": "Imagem: "},
                         {
@@ -58,7 +58,7 @@ def setup_routes(app):
             )
             
             return {
-                "result": response.text
+                "result": str(response.text).split(';')
             }
 
 
