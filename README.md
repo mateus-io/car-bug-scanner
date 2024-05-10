@@ -1,5 +1,24 @@
 # Car Bug Scanner
-Car Bug Scanner
+## Demonstração 🚀:
+
+<img src="https://github.com/mateus-io/car-bug-scanner/assets/52046972/09662c3a-88e1-47cc-9da4-38ec803598e8" width="270" height="480"/>
+
+## Resumo do projeto:
+
+#### O "Car Bug Scanner" é um aplicativo que detecta defeitos em fotos de carros.
+
+## Motivação:
+
+#### Detectar defeitos na VOLKSWAGEN BRASILIA 1981 do meu pai
+
+<img src="https://github.com/mateus-io/car-bug-scanner/assets/52046972/425e387b-3675-4b7c-b4e9-c748cdc92a4e" width="200" height="250"/>
+
+## O que foi construído:
+
+- Um aplicativo React Native
+- Uma API usando Python com Flask
+
+----------------
 
 - #### Serviços:
 
